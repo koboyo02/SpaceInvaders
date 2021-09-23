@@ -40,9 +40,9 @@ int main()
     renderer = SDL_CreateRenderer(window, -1, 0);
 
 
-    SDL_Surface* background = SDL_LoadBMP("/home/koboyo/Pictures/background.bmp");
-    SDL_Surface* vaisseau = SDL_LoadBMP("/home/koboyo/Pictures/vaisseau.bmp");
-    SDL_Surface* vaisseaubad = SDL_LoadBMP("/home/koboyo/Pictures/vaisseaubad.bmp");
+    SDL_Surface* background = SDL_LoadBMP("/img/background.bmp");
+    SDL_Surface* vaisseau = SDL_LoadBMP("/img/vaisseau.bmp");
+    SDL_Surface* vaisseaubad = SDL_LoadBMP("/img/vaisseaubad.bmp");
 
     if(!background)
     {
